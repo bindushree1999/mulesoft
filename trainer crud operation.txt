@@ -1,0 +1,52 @@
+CRUD OPERATIONS
+
+a)add trainer-message structure
+
+POST https://localhost:8081/tra-dir/add-trainer
+
+Request : body
+{
+  "tra_id":100,
+  "tra_name":"Bindu",
+  "status":"A"
+}
+
+Response:headers and body
+
+body
+{
+   "login_time":100,
+    "message":"Success"
+}
+
+b)list of trainer
+
+POST https://localhost8081/tra-dir/del-trainer?tra_id=100&status=I
+request
+
+headers:query params
+
+Response:
+headers  200ok
+
+body
+{
+  "status":200,
+  "message":"success"
+}
+
+c)delete trainer
+POST https://localhost8081/tra-dir/del-trainer/100
+
+heafers:uri params                  #[attributes.uriparams]
+
+Response:body
+
+body
+{
+ "tra_id":100,
+ "tra_name":"FSD",
+  "status":"A"
+}
+
+

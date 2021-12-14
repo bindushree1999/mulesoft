@@ -1,4 +1,4 @@
-Trainer preparing for training session
+Trainer preparing for training session(CR)
 
 prerequest..
 
@@ -7,13 +7,19 @@ prerequest..
 2.Number of days session is going on
 
 Scenario..
-1.Mode of training .
-2.If online have proper network connection and laptop,if it is offline have proper labsetup(board,marker,laptop)
-3.Dividing entire topic into parts so that it will be easy to cover all the topic
-4.Introduce your session with brief overviwe of the subject/topic.
-5.The topics covered in a day
-6.Explain the key points, show demonstation procedures.
-7.End of the class brief the concept completed on the day
-8.Maintain attendence.
-9.Cover all the topics with in number of days assigned
-10.End the session by the time
+
+1.Login to the session.
+
+2.Mode of training(online or offline).
+
+3.Topics to be covered in a day
+
+4.Add students.
+
+5.Maintain attendence of the student.
+
+6.Give notes
+
+7.Logout from the session
+
+
